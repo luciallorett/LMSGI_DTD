@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+    <llista_actors>
+        <actor id="actor1">
+            <nom>Jim Carrey</nom>
+            <edat/>
+        </actor>
+        <actor id="actor2">
+            <nom>Tom Cruise</nom>
+            <edat>62</edat>
+        </actor>
+    </llista_actors>
+    
+    <llista_pelicules>
+        <pelicula id="pelicula1">
+            <titol idioma="ca">El show de Truman</titol>
+            <director>Peter Weir</director>
+            <any>1998</any>
+            <actors>
+                <actor_ref ref="actor1"/>
+            </actors>
+        </pelicula>
+        <pelicula id="pelicula2">
+            <titol idioma="ca">Knight and Day</titol>
+            <director>James Mangold</director>
+            <any>2010</any>
+            <actors>
+                <actor_ref ref="actor2"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="pelicula1"/>
+        <recomanacio ref="pelicula2"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
